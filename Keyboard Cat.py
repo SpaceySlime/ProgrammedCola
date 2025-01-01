@@ -16,14 +16,6 @@ def PressKey(KeyCode, Time):
     time.sleep(Time)
     Keyboard.release(KeyCode)
 
-def Chat(Text):
-    PressKey("/", 0.1)
-    Keyboard.type(Text)
-    time.sleep(0.1)
-    PressKey(Key.enter, 0.1)
-
-Chat("Powered by keyboard tapping robot")
-
 while True:
     time.sleep(0.5)
     PressKey(random.choice(Keys), 1)
