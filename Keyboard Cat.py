@@ -1,4 +1,4 @@
-# Roblox Automatic Player
+# Keyboard Cat
 from pynput.keyboard import Key, Controller
 import pyautogui
 import random
