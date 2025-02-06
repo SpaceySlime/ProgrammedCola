@@ -5,8 +5,6 @@ import random
 import time
 Keyboard = Controller()
 
-pyautogui.screenshot("Test.png", region= [0, 0, 1920, 1080])
-
 Keys = []
 convertstring = "w a s d t"
 Keys = convertstring.split()
