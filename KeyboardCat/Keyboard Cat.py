@@ -1,13 +1,12 @@
 # Keyboard Cat
 from pynput.keyboard import Key, Controller
-import pyautogui
 import random
 import time
 Keyboard = Controller()
 
 pyautogui.screenshot("Test.png", region= [0, 0, 1920, 1080])
 
-Keys = [] #Bias forwards, duh.
+Keys = []
 convertstring = "q w e r t y u i o p a s d f g h j k l z x c v b n m"
 Keys = convertstring.split()
 
